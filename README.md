@@ -61,18 +61,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Human-Like Behaviour Research Project Screen Shot][project-screenshot]](https://clintgalvez.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`ClintGalvez`, `HumanLikeBehaviour`, `ClintGalvezz`, `clintgalvezz@gmail.com`
+This research project addresses the feasibility and challenges of creating human-like AI agents in video games; specifically focusing on developing agents that can follow targets while remaining hidden. Traditional game AI often becomes predictable, diminishing player immersion and enjoyment over time. To overcome this limitation, a 3D game with complex graphics and mechanics alongside an environment inspired by stealth-based games was developed. Featuring multiple navigation pathways with distinct risk-reward dynamics. The environment incorporates variable-height obstacles, strategic cover points, and open areas to encourage complex decision-making.
+
+Using Unreal Engine's Learning Agents plugin, reinforcement and imitation learning approaches were implemented with carefully designed reward systems that balance target visibility with stealth. The agent's perception system processes self-position, target location, and environmental data to inform decision-making, while the NPC employs sight, hearing, touch, and prediction capabilities to create challenging scenarios for the learning agent.
+
+The results demonstrate that the AI successfully learned behaviours that bridge the gap between rigid, scripted bots and complex human players. Eventually concluding that creating convincing human-like AI is most effectively achieved through a hybrid approach that synthesizes neural networks with behaviour trees, where machine learning focuses on selecting appropriate predefined behaviours rather than controlling low-level continuous actions. This modular system offers a pragmatic and scalable solution for developing immersive, adaptive AI in games.
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [Unreal Engine](https://www.unrealengine.com)
+* [Motion Matching Plugin](https://dev.epicgames.com/documentation/en-us/unreal-engine/motion-matching-in-unreal-engine)
+* [Learning Agents Plugin](https://dev.epicgames.com/community/learning/courses/GAR/unreal-engine-learning-agents-5-5/bZnJ/unreal-engine-learning-agents-5-5)
 
 
 
@@ -84,9 +86,9 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Unreal Engine 5.5
 ```sh
-npm install npm@latest -g
+download and install UE 5.5 from the Epic Games Launcher
 ```
 
 ### Installation
@@ -95,9 +97,9 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/ClintGalvez/HumanLikeBehaviour.git
 ```
-2. Install NPM packages
+2. Open the Unreal Engine Project File with Unreal Engine 5.5 
 ```sh
-npm install
+HumanLikeBehaviour.uproject
 ```
 
 ### Tensorboard
@@ -197,4 +199,4 @@ Project Link: [https://github.com/ClintGalvez/HumanLikeBehaviour](https://github
 [license-url]: https://github.com/ClintGalvez/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ClintGalvez
-[product-screenshot]: images/screenshot.png
+[project-screenshot]: project-screenshot.png
