@@ -1,3 +1,14 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a id="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -27,7 +38,7 @@
   <p align="center">
     Recreating human-like behaviour for game AI
     <br />
-    <a href="https://github.com/ClintGalvez/HumanLikeBehaviour"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ClintGalvez/HumanLikeBehaviour"><strong>Explore the report »</strong></a>
     <br />
     <br />
     <a href="https://github.com/ClintGalvez/HumanLikeBehaviour">View Demo</a>
@@ -41,27 +52,38 @@
 
 
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-  * [Tensorboard](#tensorboard)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#tensorboard">Tensorboard</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Human-Like Behaviour Research Project Screen Shot][project-screenshot]](https://clintgalvez.com)
+[![Human-Like Behaviour Research Project Screen Shot][project-screenshot]](https://clintgalvez.com/#projects)
 
 This research project addresses the feasibility and challenges of creating human-like AI agents in video games; specifically focusing on developing agents that can follow targets while remaining hidden. Traditional game AI often becomes predictable, diminishing player immersion and enjoyment over time. To overcome this limitation, a 3D game with complex graphics and mechanics alongside an environment inspired by stealth-based games was developed. Featuring multiple navigation pathways with distinct risk-reward dynamics. The environment incorporates variable-height obstacles, strategic cover points, and open areas to encourage complex decision-making.
 
@@ -69,12 +91,17 @@ Using Unreal Engine's Learning Agents plugin, reinforcement and imitation learni
 
 The results demonstrate that the AI successfully learned behaviours that bridge the gap between rigid, scripted bots and complex human players. Eventually concluding that creating convincing human-like AI is most effectively achieved through a hybrid approach that synthesizes neural networks with behaviour trees, where machine learning focuses on selecting appropriate predefined behaviours rather than controlling low-level continuous actions. This modular system offers a pragmatic and scalable solution for developing immersive, adaptive AI in games.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ### Built With
 
 * [Unreal Engine](https://www.unrealengine.com)
 * [Motion Matching Plugin](https://dev.epicgames.com/documentation/en-us/unreal-engine/motion-matching-in-unreal-engine)
 * [Learning Agents Plugin](https://dev.epicgames.com/community/learning/courses/GAR/unreal-engine-learning-agents-5-5/bZnJ/unreal-engine-learning-agents-5-5)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -87,45 +114,49 @@ To get a local copy up and running follow these simple steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 * Unreal Engine 5.5
-```sh
-download and install UE 5.5 from the Epic Games Launcher
-```
+  ```sh
+  download and install UE 5.5 from the Epic Games Launcher
+  ```
 
 ### Installation
 
 1. Clone the repo
-```sh
-git clone https://github.com/ClintGalvez/HumanLikeBehaviour.git
-```
+    ```sh
+    git clone https://github.com/ClintGalvez/HumanLikeBehaviour.git
+    ```
 2. Open the Unreal Engine Project File with Unreal Engine 5.5 
-```sh
-HumanLikeBehaviour.uproject
-```
+    ```sh
+    HumanLikeBehaviour.uproject
+    ```
 
 ### Tensorboard
+
 **Note: as of UE 5.5, you may come across and issue where the plugin fails to find tensorboard within the Engine files, so to fix this we'll have tensorboard installed within the project files instead of the Engine files**
+
 #### Installation
+
 1. (Optional) open the project in Unreal to generate the required `Intermediate` folder
 2. within the project directory `{Path to PROJECT}` navigate to the following directory `\Intermediate\PipInstall\Scripts`
-```sh
-{Path to PROJECT}\Intermediate\PipInstall\Scripts
-```
-
+    ```sh
+    {Path to PROJECT}\Intermediate\PipInstall\Scripts
+    ```
 3. run the following pip command to install tensorboard
-```sh
-./python -m pip install tensorboard
-```
+    ```sh
+    ./python -m pip install tensorboard
+    ```
 
 #### Run
-1. go to the following directory
-```sh
-{Path to PROJECT}\Intermediate\PipInstall\Scripts
-```
 
+1. go to the following directory
+    ```sh
+    {Path to PROJECT}\Intermediate\PipInstall\Scripts
+    ```
 2. run the following command
-```sh
-tensorboard --logdir={Path to PROJECT}\Intermediate\LearningAgents\TensorBoard\runs
-```
+    ```sh
+    tensorboard --logdir={Path to PROJECT}\Intermediate\LearningAgents\TensorBoard\runs
+    ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -136,19 +167,31 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] Feature 1
+- [ ] Feature 2
+- [ ] Feature 3
+    - [ ] Nested Feature
+
 See the [open issues](https://github.com/ClintGalvez/HumanLikeBehaviour/issues) for a list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -156,12 +199,22 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Top contributors:
+
+<a href="https://github.com/github_username/repo_name/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
+</a>
+
 
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -172,6 +225,8 @@ Clint Galvez - [@ClintGalvezz](https://twitter.com/ClintGalvezz) - clintgalvezz@
 
 Project Link: [https://github.com/ClintGalvez/HumanLikeBehaviour](https://github.com/ClintGalvez/HumanLikeBehaviour)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -181,7 +236,7 @@ Project Link: [https://github.com/ClintGalvez/HumanLikeBehaviour](https://github
 * [Hanping Zhang - PhD student supervised by Professor Yuhong Guo](https://www.linkedin.com/in/jaghanpingzhang/)
 * [Lastly my friends Jacob Boruszkowski, Vy Nguyen, Kiara Lee, David Kenneth Burnett, Christopher Romero, and Shaun Adrian Bernardo Pangilinan]()
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
