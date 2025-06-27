@@ -242,15 +242,15 @@ Project Link: [https://github.com/ClintGalvez/HumanLikeBehaviour](https://github
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ClintGalvez/repo.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/ClintGalvez/HumanLikeBehaviour.svg?style=flat-square
 [contributors-url]: https://github.com/ClintGalvez/HumanLikeBehaviour/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ClintGalvez/repo.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/ClintGalvez/HumanLikeBehaviour.svg?style=flat-square
 [forks-url]: https://github.com/ClintGalvez/HumanLikeBehaviour/network/members
-[stars-shield]: https://img.shields.io/github/stars/ClintGalvez/repo.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/ClintGalvez/HumanLikeBehaviour.svg?style=flat-square
 [stars-url]: https://github.com/ClintGalvez/HumanLikeBehaviour/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ClintGalvez/repo.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/ClintGalvez/HumanLikeBehaviour.svg?style=flat-square
 [issues-url]: https://github.com/ClintGalvez/HumanLikeBehaviour/issues
-[license-shield]: https://img.shields.io/github/license/ClintGalvez/repo.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/ClintGalvez/HumanLikeBehaviour.svg?style=flat-square
 [license-url]: https://github.com/ClintGalvez/HumanLikeBehaviour/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ClintGalvez
