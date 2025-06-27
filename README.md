@@ -38,7 +38,7 @@
   <p align="center">
     Recreating human-like behaviour for game AI
     <br />
-    <a href="https://github.com/ClintGalvez/HumanLikeBehaviour"><strong>Explore the report »</strong></a>
+    <a href="https://docs.google.com/document/d/1C8d_nTgCR3ScNvusosiK2bYwZWZwxAmvZ2FONkGZxWc/edit?usp=sharing"><strong>Explore the report »</strong></a>
     <br />
     <br />
     <a href="https://github.com/ClintGalvez/HumanLikeBehaviour">View Demo</a>
